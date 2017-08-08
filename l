@@ -560,7 +560,7 @@ do
 	echo -e "Choose: "
 	read REIN
 	clear
-	if [ "$REIN" = "1" ] || [[ "$REIN" != *"!1"* && "$REIN" == *"!"* ]]
+	if [ "$REIN" = "1" ] || [[ "$REIN" != *"!1 "* && "$REIN" == *"!"* ]]
 
 	then
 		if [ -d "/root/fluxion" ]
@@ -581,10 +581,10 @@ do
 		cd /root/fluxion/install
 		chmod +x install.sh
 		./install.sh					
-	elif [ "$REIN" = "2" ] || [[ "$REIN" != *"!2"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "2" ] || [[ "$REIN" != *"!2 "* && "$REIN" == *"!"* ]]
 	then
 		apt-get install wifite
-	elif [ "$REIN" = "3" ] || [[ "$REIN" != *"!3"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "3" ] || [[ "$REIN" != *"!3 "* && "$REIN" == *"!"* ]]
 	then
 		if [ -d "/root/wifiphisher" ]
 		then
@@ -601,12 +601,12 @@ do
 		cd wifiphisher
 		sudo python setup.py install
 		sleep 1
-	elif [ "$REIN" = "4" ] || [[ "$REIN" != *"!4"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "4" ] || [[ "$REIN" != *"!4 "* && "$REIN" == *"!"* ]]
 	then
 		echo -e "I cannot install Zatacker. Please google how to do that yourself."
 		echo -e "PAKTGB"
 		read
-	elif [ "$REIN" = "5" ] || [[ "$REIN" != *"!5"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "5" ] || [[ "$REIN" != *"!5 "* && "$REIN" == *"!"* ]]
 	then
 		if [ -d "/root/morpheus" ]
 		then
@@ -622,10 +622,10 @@ do
 		git clone https://github.com/r00t-3xp10it/morpheus.git
 		cd morpheus
 		chmod +x morpheus.sh
-	elif [ "$REIN" = "6" ] || [[ "$REIN" != *"!6"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "6" ] || [[ "$REIN" != *"!6 "* && "$REIN" == *"!"* ]]
 	then
 		pip install osrframework			
-	elif [ "$REIN" = "7" ] || [[ "$REIN" != *"!7"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "7" ] || [[ "$REIN" != *"!7 "* && "$REIN" == *"!"* ]]
 	then
 		if [ -d "/root/hakkuframework" ]
 		then
@@ -642,7 +642,7 @@ do
 		cd hakkuframework
 		chmod +x hakku
 		chmod +x install							
-	elif [ "$REIN" = "8" ] || [[ "$REIN" != *"!8"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "8" ] || [[ "$REIN" != *"!8 "* && "$REIN" == *"!"* ]]
 	then
 		if [ -d "/root/Trity" ]
 		then
@@ -657,7 +657,7 @@ do
 		git clone https://github.com/toxic-ig/Trity.git
 		cd Trity
 		sudo python install.py							
-	elif [ "$REIN" = "9" ] || [[ "$REIN" != *"!9"* && "$REIN" == *"!"* ]]
+	elif [ "$REIN" = "9" ] || [[ "$REIN" != *"!9 "* && "$REIN" == *"!"* ]]
 	then
 		if [ -d "/root/cupp" ]
 		then
